@@ -158,7 +158,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(591, 450);
             Controls.Add(label8);
             Controls.Add(label7);
             Controls.Add(button4);
@@ -173,7 +173,7 @@
             Controls.Add(textBox1);
             Controls.Add(button1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Найти острый угол между прямыми заданными тремя различными способами";
             ResumeLayout(false);
             PerformLayout();
         }

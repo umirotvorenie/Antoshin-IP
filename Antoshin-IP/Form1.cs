@@ -41,17 +41,20 @@ namespace Antoshin_IP
 
         private double CalculateSharpAngleGeneral(double a1, double b1, double c1, double a2, double b2, double c2)
         {
-            return 45.0;
+            double result = a1 + b1 + c1 + a2 + b2 + c2;
+            return result;
         }
 
         private double CalculateSharpAngleWithCoefficients(double a1, double b1, double a2, double b2)
         {
-            return 60.0;
+            double result = a1 + b1 + a2 + b2;
+            return result;
         }
 
         private double CalculateSharpAngleCanonical(double a1, double b1, double c1, double a2, double b2, double c2)
         {
-            return 30.0;
+            double result = a1 + b1 + c1 + a2 + b2 + c2;
+            return result;
         }
 
         private void button2_Click(object sender, EventArgs e)
